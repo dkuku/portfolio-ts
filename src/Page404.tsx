@@ -3,7 +3,7 @@ import * as React from 'react'
 const Page404: React.SFC<any> = () => {
     return (
       <div>
-        404
+        Page not found
       </div>
     )
 }

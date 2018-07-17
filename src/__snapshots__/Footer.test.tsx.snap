@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render without crashing and match snapshot 1`] = `
+<div>
+  <Segment
+    inverted={true}
+    style={
+      Object {
+        "padding": "5em 0em",
+      }
+    }
+    vertical={true}
+  >
+    <Container>
+      <Grid
+        divided={true}
+        inverted={true}
+        stackable={true}
+      >
+        <GridRow>
+          <GridColumn
+            width={7}
+          >
+            <Header
+              as="h4"
+              inverted={true}
+            >
+              Created by:
+            </Header>
+            <p>
+              Daniel Kukula
+              <br />
+              All Rights Reserved
+            </p>
+          </GridColumn>
+        </GridRow>
+      </Grid>
+    </Container>
+  </Segment>
+</div>
+`;
