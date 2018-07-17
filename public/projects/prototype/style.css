@@ -1,0 +1,53 @@
+/* fix for bootstrap navbar top fixed*/
+body {
+  position: relative;
+  margin-top: 40px;
+}
+
+/* diagonal svg sections needs to be scaled*/
+svg {
+  display: block;
+  width: 100%;
+  height: 80px;
+  margin-bottom: 1px solid black;
+  z-index: 1;
+
+/* background color for some sections*/
+}
+#news, #program, footer { 
+background-color: black;
+box-shadow: 0 1px black, 0 -1px black;
+
+/* Navpills better visibility*/
+}
+.nav-pills .nav-link.active {
+  background: orange;
+  color: black;
+  text-shadow:5px 5px 10px black;
+}
+
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  color: #FFC107;
+}
+
+/* shadow for text in carousel
+pull svg up so its on top of carousel - no background visible*/
+#carouselExampleIndicators {
+  text-shadow:5px 5px 10px black;
+  margin-bottom: -80px;
+  z-index: -1;
+}
+/* pull up text on carousel*/
+
+.carousel-indicators, .carousel-caption {
+  bottom: 120px;
+}
+
+/* make cards even lenght*/
+.card {
+  height: 100%;
+}
